@@ -7,20 +7,28 @@ const API = axios.create({
   headers: { 'Content-Type': 'application/json' },
 });
 
-// Automatically attach JWT token to every request if available
+// Attach whichever token exists (admin takes priority)
 API.interceptors.request.use((config) => {
-  const token = localStorage.getItem('adminToken');
+  const adminToken  = localStorage.getItem('adminToken');
+  const clientToken = localStorage.getItem('clientToken');
+  const token = adminToken || clientToken;
   if (token) config.headers.Authorization = `Bearer ${token}`;
   return config;
 });
 
-// Handle 401 errors globally (redirect to login)
+// Handle 401 globally
 API.interceptors.response.use(
-  (response) => response,
+  (res) => res,
   (error) => {
     if (error.response?.status === 401) {
-      localStorage.removeItem('adminToken');
-      window.location.href = '/admin/login';
+      if (localStorage.getItem('adminToken')) {
+        localStorage.removeItem('adminToken');
+        window.location.href = '/admin/login';
+      } else if (localStorage.getItem('clientToken')) {
+        localStorage.removeItem('clientToken');
+        localStorage.removeItem('clientUser');
+        window.location.href = '/login';
+      }
     }
     return Promise.reject(error);
   }

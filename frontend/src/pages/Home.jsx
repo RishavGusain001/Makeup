@@ -43,7 +43,7 @@ export default function Home() {
             <span className="italic text-rose-600">Feel Confident</span>
           </h1>
           <p className="text-gray-600 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-            Specializing in bridal, party, and editorial makeup in Uttarakhand. 
+            Specializing in bridal, party, and editorial makeup in Delhi NCR. 
             Your dream look is just one booking away.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

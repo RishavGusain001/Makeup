@@ -5,8 +5,8 @@ export default function Contact() {
     {
       icon: '📞',
       label: 'Call / WhatsApp',
-      value: '+91 XXXXX XXXXX',
-      href: 'tel:+91XXXXXXXXXX',
+      value: '+91 98765 43210',
+      href: 'tel:+919876543210',
       bg: 'bg-green-50',
       border: 'border-green-200',
       textColor: 'text-green-700',
@@ -15,7 +15,7 @@ export default function Contact() {
       icon: '💬',
       label: 'WhatsApp Chat',
       value: 'Message on WhatsApp',
-      href: 'https://wa.me/919759902303?text=Hi%20Priya%2C%20I%20want%20to%20book%20a%20makeup%20appointment!',
+      href: 'https://wa.me/919876543210?text=Hi%20Priya%2C%20I%20want%20to%20book%20a%20makeup%20appointment!',
       bg: 'bg-emerald-50',
       border: 'border-emerald-200',
       textColor: 'text-emerald-700',
@@ -23,8 +23,8 @@ export default function Contact() {
     {
       icon: '📸',
       label: 'Instagram',
-      value: '@sonakshimakeupartist',
-      href: 'https://www.instagram.com/sonakshimakeupartist/',
+      value: '@priya.makeupartist',
+      href: 'https://instagram.com',
       bg: 'bg-pink-50',
       border: 'border-pink-200',
       textColor: 'text-pink-700',
@@ -32,8 +32,8 @@ export default function Contact() {
     {
       icon: '✉️',
       label: 'Email',
-      value: 'sonakshi_negi4048',
-      href: 'mailto:sonakshi_negi4048@gmail.com',
+      value: 'priya@makeupbyme.in',
+      href: 'mailto:priya@makeupbyme.in',
       bg: 'bg-rose-50',
       border: 'border-rose-200',
       textColor: 'text-rose-700',
@@ -95,7 +95,7 @@ export default function Contact() {
           <div className="text-4xl mb-3">📍</div>
           <h2 className="font-display text-xl text-rose-900 mb-2">Location</h2>
           <p className="text-gray-600 text-sm">
-            Based in <strong>Dehradun</strong>, serving near Dehradun including Tehri, Chamba & all Location .
+            Based in <strong>South Delhi</strong>, serving Delhi NCR including Gurugram, Noida, and Faridabad.
           </p>
           <p className="text-gray-500 text-xs mt-2">
             Home visits available within 30 km radius (travel charges may apply).

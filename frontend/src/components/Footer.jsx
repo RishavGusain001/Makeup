@@ -9,9 +9,9 @@ export default function Footer() {
 
         {/* Brand */}
         <div>
-          <h3 className="font-display text-xl text-white mb-2">💄 Sonakshi Negi</h3>
+          <h3 className="font-display text-xl text-white mb-2">💄 Priya Sharma</h3>
           <p className="text-sm text-rose-300 leading-relaxed">
-            Professional makeup artist based in Dehradun. Bridal, party &amp; editorial looks.
+            Professional makeup artist based in Delhi NCR. Bridal, party &amp; editorial looks.
           </p>
         </div>
 
@@ -36,15 +36,15 @@ export default function Footer() {
         <div>
           <h4 className="font-semibold text-white mb-3 uppercase text-xs tracking-wider">Contact</h4>
           <ul className="space-y-2 text-sm text-rose-300">
-            <li>📞 +91 XXXXX XXXXX</li>
+            <li>📞 +91 98765 43210</li>
             <li>
-              <a href="https://wa.me/919759902303" className="hover:text-white transition-colors">
+              <a href="https://wa.me/919876543210" className="hover:text-white transition-colors">
                 💬 WhatsApp
               </a>
             </li>
             <li>
               <a href="https://instagram.com" className="hover:text-white transition-colors">
-                📸 @sonakshimakeupartist
+                📸 @priya.makeupartist
               </a>
             </li>
           </ul>
@@ -52,7 +52,7 @@ export default function Footer() {
       </div>
 
       <div className="text-center text-rose-400 text-xs mt-8">
-        © {new Date().getFullYear()} Sonakshi Negi Makeup Artist. All rights reserved.
+        © {new Date().getFullYear()} Priya Sharma Makeup Artist. All rights reserved.
       </div>
     </footer>
   );
