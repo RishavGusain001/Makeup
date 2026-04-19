@@ -99,7 +99,7 @@ export default function Services() {
         {/* Note */}
         <div className="mt-14 bg-white rounded-2xl p-6 border border-rose-100 text-center">
           <p className="text-gray-600 text-sm">
-            💬 Need a custom package or have questions? <a href="https://wa.me/919876543210" className="text-rose-600 font-semibold hover:underline">WhatsApp me</a> anytime!
+            💬 Need a custom package or have questions? <a href="https://wa.me/910000000000" className="text-rose-600 font-semibold hover:underline">WhatsApp me</a> anytime!
           </p>
         </div>
 
