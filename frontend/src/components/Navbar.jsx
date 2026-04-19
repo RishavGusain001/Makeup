@@ -34,7 +34,7 @@ export default function Navbar() {
         <Link to="/" className="flex items-center gap-2">
           <span className="text-2xl">💄</span>
           <div>
-            <p className="font-display text-lg leading-tight text-rose-800 font-bold">Priya Sharma</p>
+            <p className="font-display text-lg leading-tight text-rose-800 font-bold">Sonakshi Negi</p>
             <p className="text-xs text-rose-400 tracking-widest uppercase">Makeup Artist</p>
           </div>
         </Link>
