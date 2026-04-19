@@ -11,6 +11,7 @@ def get_db():
             user=current_app.config['MYSQL_USER'],
             password=current_app.config['MYSQL_PASSWORD'],
             database=current_app.config['MYSQL_DB'],
+            port=int(current_app.config.get('MYSQL_PORT', 3306)),  # ← add this line
             cursorclass=pymysql.cursors.DictCursor,
             autocommit=True
         )
